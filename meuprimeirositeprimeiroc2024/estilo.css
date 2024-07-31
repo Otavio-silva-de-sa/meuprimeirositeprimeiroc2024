@@ -6,11 +6,20 @@ div. fixed{
     border: 3px solid #73ad21
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 div.relative {
     position: relative;
     width:400px;
     height:200px;
     border: 3px solid #73ad21
+}
+
+.card{
+    background-color: #264696;
+    text-align: center;
 }
 
 div.absolute {
@@ -39,6 +48,11 @@ nav {
     background-color: bisque;
 }
 
+nav a{
+    margin = 0px 10px;
+    cursor: pointer;
+}
+
 main {
     background-color: beige;
     width: 80%;
@@ -56,5 +70,29 @@ footer.sticky {
     background-color: aquamarine;
     padding: 3%;
     border: 2px solid #4caf50
+}
+
+table, th, td{
+    border: 1px solid #444;
+    border-collapse: collapse;
+    padding: 5px 2px 5px 5px;
+}
+table{
+    width: ;
+}
+
+.conteudo{
+    text-align: left;
+}
+.ações{
+    text-align: center;
+}
+th{
+    background-color: #264696;
+    color: #fff ;
+}
+
+tr:hover{
+    background-color: #f7f5f5 ;
 }
 
